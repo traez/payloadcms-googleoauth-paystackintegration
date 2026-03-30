@@ -8,6 +8,8 @@ const Navbar = async () => {
 
   const navLinks = [
     { name: 'Home', href: '/' },
+    { name: 'Checkout', href: '/checkout' },
+    { name: 'Verify', href: '/verify' },
     ...(user
       ? [{ name: 'AccountDashboard', href: '/account-dashboard' }]
       : [{ name: 'Login', href: '/login' }]),
